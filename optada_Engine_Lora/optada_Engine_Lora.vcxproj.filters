@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{3067f499-6fb2-4ad5-9994-f698293515f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1f525cf3-45e2-4b5d-8716-78574004ee98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Input">
+      <UniqueIdentifier>{e6529a37-99bf-4ff6-8005-c10539207d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Render">
+      <UniqueIdentifier>{c13f13bf-6247-45c6-99bf-09d89c584b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Window">
+      <UniqueIdentifier>{70a7059b-482c-4d2a-b4cb-a612e5e9ef40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Render\ResourceManager">
+      <UniqueIdentifier>{2ba7783e-9a20-4912-9012-42be91bb5045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Render\ResourceManager\MemoryManager">
+      <UniqueIdentifier>{5d8a8009-e7b6-49d7-878a-38601289f602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Render\ResourceManager\MemoryManager\SupportBuffers">
+      <UniqueIdentifier>{73d34805-9bdf-49b0-a97b-e4f7af656e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Render\ResourceManager\MemoryManager\SupportBuffers\CellBuffer">
+      <UniqueIdentifier>{869472d5-4abb-4a41-adb6-39177124a5b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\PS_Color.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PS_Shadow.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_Color.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VS_Shadow.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Game_Level.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\OPTada_Instance.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Input\OPTada_Input.h">
+      <Filter>Code\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Window\OPTada_Window.h">
+      <Filter>Code\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Window\OPTada_Window_Settings.h">
+      <Filter>Code\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\OPTada_ConstantBuffers.h">
+      <Filter>Code\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\OPTada_Render.h">
+      <Filter>Code\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\OPTada_Render_Settings.h">
+      <Filter>Code\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\OPTadaC_Obj_Camera.h">
+      <Filter>Code\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\OPTadaC_Obj_Collision.h">
+      <Filter>Code\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\OPTadaC_Obj_Draw.h">
+      <Filter>Code\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\OPTadaC_Obj_Light.h">
+      <Filter>Code\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\OPTadaC_ShadowClass.h">
+      <Filter>Code\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\OPTadaS_WorldNavigationData.h">
+      <Filter>Code\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\ConstantBufferList.h">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\MeshList.h">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\OBJ_Loader.h">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\OPTadaC_ResourceManager.h">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\OPTadaC_ResourceManager_Settings.h">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\PixelShaderList.h">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\TextureList.h">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\VertexShaderList.h">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\WICTextureLoader11.h">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\MamoryManager_x64\OPTada_MemoryManager.h">
+      <Filter>Code\Render\ResourceManager\MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\MamoryManager_x64\OPTada_MemoryManager_Settings.h">
+      <Filter>Code\Render\ResourceManager\MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\OPTadaC_MultithreadedSimpleMemoryBuffer.h">
+      <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\OPTadaC_SimpleMemoryBuffer.h">
+      <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\OPTadaC_TemplateOfMemoryBuffer.h">
+      <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\OPTadaS_TemplateMemoryBuffer_Element.h">
+      <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\CellBuffer\OPTadaC_MemoryCells_StaticCyclicBuffer.h">
+      <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers\CellBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\CellBuffer\OPTadaS_MemoryCell_Element.h">
+      <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers\CellBuffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Main.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Input\OPTada_Input.cpp">
+      <Filter>Code\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Window\OPTada_Window.cpp">
+      <Filter>Code\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Render\OPTada_Render.cpp">
+      <Filter>Code\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Render\ResourceManager\OPTadaC_ResourceManager.cpp">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Render\ResourceManager\WICTextureLoader11.cpp">
+      <Filter>Code\Render\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Render\ResourceManager\MamoryManager_x64\OPTada_MemoryManager.cpp">
+      <Filter>Code\Render\ResourceManager\MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\OPTadaC_MultithreadedSimpleMemoryBuffer.cpp">
+      <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\OPTadaC_SimpleMemoryBuffer.cpp">
+      <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\CellBuffer\OPTadaC_MemoryCells_StaticCyclicBuffer.cpp">
+      <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers\CellBuffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

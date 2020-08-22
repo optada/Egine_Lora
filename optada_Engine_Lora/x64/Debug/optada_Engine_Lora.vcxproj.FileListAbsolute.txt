@@ -1,0 +1,2 @@
+D:\GIT\Engine_Lora\optada_Engine_Lora\x64\Debug\optada_Engine_Lora.exe
+D:\GIT\Engine_Lora\optada_Engine_Lora\x64\Debug\optada_Engine_Lora.pdb
