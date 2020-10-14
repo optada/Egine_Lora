@@ -200,6 +200,7 @@
     <ClInclude Include="Code\Render\ResourceManager\TextureList.h" />
     <ClInclude Include="Code\Render\ResourceManager\VertexShaderList.h" />
     <ClInclude Include="Code\Render\ResourceManager\WICTextureLoader11.h" />
+    <ClInclude Include="Code\Timer.h" />
     <ClInclude Include="Code\Window\OPTada_Window.h" />
     <ClInclude Include="Code\Window\OPTada_Window_Settings.h" />
   </ItemGroup>
@@ -214,6 +215,9 @@
     <ClCompile Include="Code\Render\ResourceManager\OPTadaC_ResourceManager.cpp" />
     <ClCompile Include="Code\Render\ResourceManager\WICTextureLoader11.cpp" />
     <ClCompile Include="Code\Window\OPTada_Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

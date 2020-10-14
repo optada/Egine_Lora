@@ -145,10 +145,15 @@ int WINAPI WinMain(
 			else {
 				float currTime = (float)timeGetTime();
 				float timeDelta = (currTime - lastTime) * 0.001f;
-
-				OPTada_Instance::Tick(timeDelta);
-
 				lastTime = currTime;
+
+				std::cout << std::endl << timeDelta;
+				
+				OPTada_Instance::Tick(timeDelta);
+	
+				/*currTime = (float)timeGetTime();
+				timeDelta = (currTime - lastTime) * 0.001f;
+ 				int i = 0;*/
 			}
 		}
 

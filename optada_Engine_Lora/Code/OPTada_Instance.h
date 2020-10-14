@@ -347,7 +347,8 @@ public:
 				cb_ObjectData.World = current_opaque->world->matrix;
 				global_Render.resourceManager.UpdateSubresource(ENUM_ConstantBufferList_ObjectData, &cb_ObjectData, global_Render.g_DeviceContext_d3d11);
 
-				global_Render.g_DeviceContext_d3d11->DrawIndexed(mesh->indexBufferCount, 0, 0); // draw
+				for (int iter = 0; iter < 10000; iter++)
+					global_Render.g_DeviceContext_d3d11->DrawIndexed(mesh->indexBufferCount, 0, 0); // draw
 
 				lastDrawObject = current_opaque;
 			}
@@ -383,6 +384,7 @@ public:
 				lastDrawObject = current_opaque;
 			}
 		}
+
 
 
 		// ----------- draw clip objects

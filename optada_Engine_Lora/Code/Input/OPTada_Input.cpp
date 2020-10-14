@@ -45,7 +45,7 @@ bool OPTada_Input::ReadKeyboard()
 				kb_State_Out[i] = 0;
 				continue;
 			}
-			// if 2 or 3 -> set 1 (key down)
+			// if 2 or 3 -> set 1 (key up)
 			if (kb_State_Out[i] >= 2) {
 				kb_State_Out[i] = 1;
 				continue;

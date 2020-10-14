@@ -137,6 +137,9 @@
     <ClInclude Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\CellBuffer\OPTadaS_MemoryCell_Element.h">
       <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers\CellBuffer</Filter>
     </ClInclude>
+    <ClInclude Include="Code\Timer.h">
+      <Filter>Code</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Code\Main.cpp">
@@ -169,5 +172,8 @@
     <ClCompile Include="Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\CellBuffer\OPTadaC_MemoryCells_StaticCyclicBuffer.cpp">
       <Filter>Code\Render\ResourceManager\MemoryManager\SupportBuffers\CellBuffer</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

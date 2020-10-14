@@ -37,8 +37,8 @@ private:
 	DIMOUSESTATE2 m_mouseCurrState; // now
 	bool mouseIsLocked = false;
 
-	int m_X = 0, m_Y = 0;   // workspace coordinate
-	int m_DX = 0, m_DY = 0; // delta move
+	int m_X = 0, m_Y = 0;         // workspace coordinate
+	int m_DX = 0, m_DY = 0;       // delta move
 	unsigned char m_State_Out[8]; // mouse buttons
 
 	// other

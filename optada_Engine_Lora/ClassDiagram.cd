@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameLevel" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAACAAAAAAAAAAgAAAAAAAAAAABCAAIAQAI=</HashCode>
+      <FileName>Code\Game_Level.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTada_Instance" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAQEkAAAAAAAAAAAAAAAAAEAAAAAAQAQAQEA=</HashCode>
+      <FileName>Code\OPTada_Instance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTada_Input" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYBAAAAgABAAAIAAAAAABAIQBAQAAAAAmCAAAiQACE=</HashCode>
+      <FileName>Code\Input\OPTada_Input.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_Obj_Camera" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAACAIAAAAAQIAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTadaC_Obj_Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_Collision" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgCAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTadaC_Obj_Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_Obj_CollisionBox">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAABAAAAABgAAAAAAAEAACAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTadaC_Obj_Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_Obj_Draw">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAEAAAAAAAAAACBAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTadaC_Obj_Draw.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_Obj_Light">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAABAgAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTadaC_Obj_Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_ShadowClass">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIgAAAAkAAQEAAAAAAACAAAKCAAAIAAAACAA=</HashCode>
+      <FileName>Code\Render\OPTadaC_ShadowClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTada_Render" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQAAAQIAAACQEBIIAAAARCQAQCBAAABIACABIg=</HashCode>
+      <FileName>Code\Render\OPTada_Render.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_ResourceManager">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAABEEZAQwABhAEAwAkAgBAIAAMAABARgCAIgAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\OPTadaC_ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTada_MemoryManager" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACgwgAAFAAAAgYAACABAAAQAAACAAAABgAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\MamoryManager_x64\OPTada_MemoryManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_MultithreadedSimpleMemoryBuffer" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAgIAAABAAAAAIAAAAAAAAAAAAAAAAABgAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\OPTadaC_MultithreadedSimpleMemoryBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_SimpleMemoryBuffer" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAEggAAABAAAIACMAAAABAAAAgQCAgAABgABAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\OPTadaC_SimpleMemoryBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_TemplateOfMemoryBuffer" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggAAABAAAIAAEAQAAAAAAAAACAABABgQAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\OPTadaC_TemplateOfMemoryBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTadaC_MemoryCells_StaticCyclicBuffer" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEACABEgAIAgAAEAAAAAAAAAAAAAAAABAAAABAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\CellBuffer\OPTadaC_MemoryCells_StaticCyclicBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPTada_Window" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAIAAAAAAAAAAQIgAAQgiAgECBQABAAAIACQAAA=</HashCode>
+      <FileName>Code\Window\OPTada_Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="`anonymous-namespace'::Loader" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAgAAAEAAAAAAAAAAAAAgAAAAQAAAAAQAEACBAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\OBJ_Loader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="OPTadaS_Light" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAIACAAAAAAAAAAAIIAIAgAAAAAgEAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTadaC_Obj_Light.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FVec3" Collapsed="true">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>Code\Render\OPTadaS_WorldNavigationData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_WorldNavigationData" Collapsed="true">
+    <Position X="12.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAASIICAAAACAAAEAAIgCAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTadaS_WorldNavigationData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_CB_GlobalData" Collapsed="true">
+    <Position X="19.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTada_ConstantBuffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_CB_FrameData" Collapsed="true">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAABAAQAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTada_ConstantBuffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_CB_ObjectData" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAgAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTada_ConstantBuffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_MeshStructure" Collapsed="true">
+    <Position X="19.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AISAAJAAAAAQAAAAAAAAZAAAAAAAAAACEAAAACAABAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\MeshList.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_PixelShaderStructure" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEEAAAQQAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\PixelShaderList.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_TextureStructure" Collapsed="true">
+    <Position X="16.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAARAAAAAAAAgACAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\TextureList.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_VertexShaderStructure" Collapsed="true">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAQQAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\VertexShaderList.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex_F3Coord_F3Normal_F2TextCoord" Collapsed="true">
+    <Position X="19.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\VertexShaderList.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_Key_MemoryManager" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Code\Render\ResourceManager\MamoryManager_x64\OPTada_MemoryManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_TemplateMemoryBuffer_Element" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAAAg=</HashCode>
+      <FileName>Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\OPTadaS_TemplateMemoryBuffer_Element.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_MemoryCell_Element" Collapsed="true">
+    <Position X="18" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAIAACAABAAAAAAAAAAAAAAgAIEA=</HashCode>
+      <FileName>Code\Render\ResourceManager\MamoryManager_x64\SupportBuffers\CellBuffer\OPTadaS_MemoryCell_Element.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OPTadaS_Window_Size" Collapsed="true">
+    <Position X="19.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Window\OPTada_Window.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::WICTranslate" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\WICTextureLoader11.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::WICConvert" Collapsed="true">
+    <Position X="12.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\WICTextureLoader11.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::Vector2" Collapsed="true">
+    <Position X="14.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAgAAAAYAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\OBJ_Loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::Vector3" Collapsed="true">
+    <Position X="16.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAYAE=</HashCode>
+      <FileName>Code\Render\ResourceManager\OBJ_Loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::Vertex" Collapsed="true">
+    <Position X="18" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAIAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\OBJ_Loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::Material" Collapsed="true">
+    <Position X="14.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAAgAAEAAAAgAAAQAACAACUAAgFAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\OBJ_Loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::Mesh" Collapsed="true">
+    <Position X="16.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAEQAAABAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\OBJ_Loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="OPTadaE_Obj_Light_Type" Collapsed="true">
+    <Position X="19.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Code\Render\OPTadaC_Obj_Light.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPTadaE_RasterizerMass_ForRender" Collapsed="true">
+    <Position X="14.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAIAAAAAIAACAAAE=</HashCode>
+      <FileName>Code\Render\OPTada_Render.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPTadaE_BlendStateMass_ForRender" Collapsed="true">
+    <Position X="12.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\OPTada_Render.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPTadaE_ConstantBufferList_ForResourceManager" Collapsed="true">
+    <Position X="16.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Code\Render\ResourceManager\ConstantBufferList.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPTadaE_MeshList_ForResourceManager" Collapsed="true">
+    <Position X="18" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\MeshList.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPTadaE_PixelShaderList_ForResourceManager" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\PixelShaderList.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPTadaE_SamplerStateList_ForResourceManager" Collapsed="true">
+    <Position X="16.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAACAAAAEAAAAgAAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\PixelShaderList.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPTadaE_TextureList_ForResourceManager" Collapsed="true">
+    <Position X="18" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\TextureList.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPTadaE_VertexShaderList_ForResourceManager" Collapsed="true">
+    <Position X="19.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAACAAAAAAAAAAAAAAQAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\VertexShaderList.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPTadaE_BufferTypes_ForMemoryManager" Collapsed="true">
+    <Position X="14.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAEAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Render\ResourceManager\MamoryManager_x64\OPTada_MemoryManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OPTadaE_WindowState_ForClassWindow" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAQAAAAAAAAAIAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Code\Window\OPTada_Window.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DirectX::WIC_LOADER_FLAGS" Collapsed="true">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAASAAAIAQAAAAAQAAAAAAAACA=</HashCode>
+      <FileName>Code\Render\ResourceManager\WICTextureLoader11.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
